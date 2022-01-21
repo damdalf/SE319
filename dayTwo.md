@@ -24,7 +24,8 @@
 * All builds from source - meaning that the code is compiled each and every day.
 * System software - software that isn't supposed to be seen by the consumers / users (backend).
 * Application software - software that the user directly interacts with.
-![](https://i.gyazo.com/b3b0e621abd581a4ded8a013560e0261.png)
+
+    ![](https://i.gyazo.com/b3b0e621abd581a4ded8a013560e0261.png)
 * The application software will require more maintaining as it's life cycle is far longer than the system software and hardware's life cycle, so you will have to adapt it with those changes.
 ---
 
@@ -54,7 +55,8 @@
     * A executable file with its own memory space - a program.
     * A process has several states.
         * New, Ready, Waiting, Running, or Terminated.
-![](https://i.gyazo.com/a3c65dcd2370c596b19d72a771d31a99.png)
+
+    ![](https://i.gyazo.com/a3c65dcd2370c596b19d72a771d31a99.png)
 ---
 
     
