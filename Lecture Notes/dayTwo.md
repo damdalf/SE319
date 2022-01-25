@@ -51,7 +51,7 @@
         * Another process to be completed.
             * Asynchronus operation.
             * Intense calculation.
-* What is a process?u
+* What is a process?
     * A executable file with its own memory space - a program.
     * A process has several states.
         * New, Ready, Waiting, Running, or Terminated.
