@@ -1,4 +1,4 @@
-# **COM S 319: Day Two - Software Production & Operating Systems | 1/21/22 |**
+# **COM S 319: Day Two - Software Production | 1/21/22 |**
 
 ## **Aspects of Software Production**
 * Gathering requirements
@@ -40,23 +40,6 @@
     * Legacy code - outdated code that is still being used.
 * Increasing 'off-the-shelf' development.
     * Means you will not implement yourself, but you will implement said feature using another company's module / API / program.
----
-
-## **Basics of Operating Systems:**
-* Operating systems are considered system software.
-* What are some reasons that a program cannot execute an instruction immediately?
-    * The program is waiting for:
-        * Memory to be allocated.
-        * Data to be fetched from the server.
-        * Another process to be completed.
-            * Asynchronus operation.
-            * Intense calculation.
-* What is a process?
-    * A executable file with its own memory space - a program.
-    * A process has several states.
-        * New, Ready, Waiting, Running, or Terminated.
-
-    ![](https://i.gyazo.com/a3c65dcd2370c596b19d72a771d31a99.png)
 ---
 
     
