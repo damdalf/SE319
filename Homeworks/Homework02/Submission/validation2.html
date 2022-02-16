@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Contact Information</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="./validation2.js"></script>
+</head>
+<style>
+    table, td 
+    {
+        border:2px solid black;
+    }
+
+    th
+    {
+        border:2px solid black;
+        background-color: crimson;
+        color: white;
+    }
+
+    ::placeholder
+    {
+        color:black;
+        opacity: 1;
+    }
+
+    input:focus
+    {
+        outline-color: crimson;
+    }
+
+    .errorMessage{color: red;}
+</style>
+<body>
+
+<h1 style="text-align:center;">PLEASE ENTER THE FOLLOWING CONTACT INFORMATION:</h1>
+<hr style="background-color:crimson;height:3px;border:none;"><br>
+<h3 style="text-align:center;">NOTE: '*Required field = Field Cannot Be Empty' </h3>
+
+<form id="contact information" onsubmit="return false">
+    <table style="width:100%">
+        <tr style="background-color:crimson; color:white;">
+            <th>FIELD LABEL:</th>
+            <th>Field Type:</th>
+            <th>Validation Rule:</th>
+            <th>RESULT:</th>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">
+                Email Address:
+            </td>
+            <td>
+                <input type="text" id="email" name="email" placeholder="Please enter your email address..." pattern="^[\w]{1,}[\w.+-]{0,}@[\w-]{2,}([.][a-zA-Z]{2,}|[.][\w-]{2,}[.][a-zA-Z]{2,})"; style="width:97.6%;" required>
+            </td>
+            <td style="text-align:center; width:30%;">
+                <b>*REQUIRED</b><br>
+                Must be in the form 'xxxx@xxx.xxx', and 'x' should be alphanumeric (e.g. no special symbols).
+            </td>
+            <td id="emailResult" style="width:30%;">
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">
+                Phone Number:
+            </td>
+            <td>
+                <input type="tel" id="phone" name="phone" placeholder="Please enter your phone number..." pattern="[0-9]{3}[0-9]{3}[0-9]{4}|[0-9]{3}-[0-9]{3}-[0-9]{4}" style="width:97.6%;" required>
+            </td>
+            <td style="text-align:center; width:30%;">
+                <b>*REQUIRED</b><br>
+                Must be in the form 'xxx-xxx-xxxx' or 'xxxxxxxxxx', and 'x' should be numeric.
+            </td>
+            <td id="phoneResult" style="width:30%;">
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">
+                Address:
+            </td>
+            <td>
+                <input type="text" id="address" name="address" placeholder="Please enter your address..." pattern="^[A-Za-z]+,[ ]?[A-Za-z]{2}$|^[A-Za-z]+[ ][A-Za-z]+,[ ]?[A-Za-z]{2}$" style="width:97.6%;" required>
+            </td>
+            <td style="text-align:center; width:30%;">
+                <b>*REQUIRED</b><br>
+                Must be in the form of city and state, such as 'Ames,IA', or 'Ames, IA'.
+            </td>
+            <td id="addressResult" style="width:30%;">
+            </td>
+        </tr>
+    </table><br>
+    <input onClick="validate2()" type="submit" id="submit" name="submit" value="Submit" style="width: 50%; height: 35px; display: block; font-weight: bold; margin: 0 auto; background-color: crimson; color:white">
+</form>
+</body>
+</html>

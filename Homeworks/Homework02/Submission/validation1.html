@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Validation Form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="./validation1.js"></script>
+</head>
+<style>
+    table, td 
+    {
+        border:2px solid black;
+    }
+
+    th
+    {
+        border:2px solid black;
+        background-color: crimson;
+        color: white;
+    }
+
+    ::placeholder
+    {
+        color:black;
+        opacity: 1;
+    }
+
+    input:focus, select:focus-visible
+    {
+        outline-color: crimson;
+    }
+
+    .errorMessage{color: red;}
+</style>
+<body>
+
+<h1 style="text-align:center; color: black;">PLEASE ENTER THE FOLLOWING PERSONAL INFORMATION:</h1>
+<hr style="background-color:crimson;height:3px;border:none;"><br>
+<h3 style="text-align:center; color:black;">NOTE: '*Required field = Field Cannot Be Empty' </h3>
+<form id="personal information">
+    <table style="width:100%;">
+        <tr style="background-color:crimson; color:white;">
+            <th>FIELD LABEL:</th>
+            <th>Field Type:</th>
+            <th>Validation Rule:</th>
+            <th>RESULT:</th>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">
+                First name:
+            </td>
+            <td>
+                <input type="text" id="fname" name="fname" placeholder="Please enter your first name..." style="width:97.6%;" required>
+            </td>
+            <td style="text-align:center; width:30%;">
+                <b>*REQUIRED</b><br>
+                Must contain only alphabetic or numeric characters.
+            </td>
+            <td id="fnameResult" style="width:30%;">
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">
+                Last name:
+            </td>
+            <td>
+                <input type="text" id="lname" name="lname" placeholder="Please enter your last name..." style="width:97.6%;" required>
+            </td>
+            <td style="text-align:center; width:30%;">
+                <b>*REQUIRED</b><br>
+                Must contain only alphabetic or numeric characters.
+            </td>
+            <td id="lnameResult" style="width:30%;">
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">
+                Gender:
+            </td>
+            <td>
+                <select name="gender" id="gender" style="width:100%;" required>
+                    <option value="" selected disabled hidden>Please select a gender...</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </td>
+            <td style="text-align:center; width:30%;">
+                <b>*REQUIRED</b><br>
+                Select from the given list...
+            </td>
+            <td id="genderResult" style="width:30%;">
+            </td>
+        </tr>
+        <tr>
+            <td style="font-weight: bold;">
+                State:
+            </td>
+            <td>
+                <select name="state" id="state" style="width:100%;" required>
+                    <option value="" selected disabled hidden>Please select a state...</option>
+                    <option value="california">California</option>
+                    <option value="flordia">Florida</option>
+                    <option value="ny">New York</option>
+                    <option value="texas">Texas</option>
+                    <option value="hawaii">Hawaii</option>
+                    <option value="washington">Washington</option>
+                    <option value="colorado">Colorado</option>
+                    <option value="Virginia">Virginia</option>
+                    <option value="iowa">Iowa</option>
+                    <option value="arizona">Arizona</option>
+                </select>
+            </td>
+            <td style="text-align:center; width:30%;">
+                <b>*REQUIRED</b><br>
+                Select from the given list...
+            </td>
+            <td id="stateResult" style="width:30%;">
+            </td>
+        </tr>
+    </table><br>
+    <input onClick="validate1()" type="button" id="continue" name="continue" value="Continue" style="width: 50%; height:35px; display: block; font-weight: bold; margin: 0 auto; background-color: crimson; color:white">
+</form>
+</body>
+</html>
