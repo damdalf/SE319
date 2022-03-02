@@ -1,0 +1,17 @@
+{
+  "name": "Jest-Codes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "matchers.test.js",
+  "dependencies": {
+    "jest": "^27.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
