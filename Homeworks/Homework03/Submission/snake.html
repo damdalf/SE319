@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Snake</title>
+</head>
+<body>
+  <header>
+  </header>
+  <main>
+      <table>
+            <tr>
+                <button class="startBtn" id="playBtn" type="button" onClick="startOrStopOrRestart()">START</button>
+            </tr>
+            <tr>
+                <button class="directionBtn" id="rightBtn" type="button" onClick="turnRight()">TURN RIGHT</button>
+            </tr>
+            <tr>
+                <button class="directionBtn" id="leftBtn" type="button" onClick="turnLeft()">TURN LEFT</button>
+            </tr>
+      </table>
+      <canvas id="gameCanvas" width="600" height="600"></canvas>
+  </main>
+  <footer>
+  </footer>
+  <script src="snake.js"></script>
+</body>
+</html>

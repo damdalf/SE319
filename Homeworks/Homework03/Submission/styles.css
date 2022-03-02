@@ -1,0 +1,107 @@
+/* @author Devin Amdahl */
+/* 03/01/2022 */
+
+canvas 
+{
+    background-color: white;
+    border: 6px solid black;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
+table
+{
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
+tr
+{
+    width: 33%;
+}
+
+button
+{
+    font-weight: bold;
+    padding: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
+    width:33.33%;
+}
+
+.startBtn
+{
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    transition-duration: 0.4s;
+}
+
+.startBtn:hover
+{
+    background-color: green;
+    color: white;
+}
+
+.resumeBtn
+{
+    background-color: white;
+    color: black;
+    border: 2px solid blue;
+    transition-duration: 0.4s;
+}
+
+.resumeBtn:hover
+{
+    background-color: blue;
+    color: white;
+}
+
+.stopBtn
+{
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+    transition-duration: 0.4s;
+}
+
+.stopBtn:hover
+{
+    background-color: red;
+    color: white;
+}
+
+.restartBtn
+{
+    background-color: white;
+    color: black;
+    border: 2px solid orange;
+    transition-duration: 0.4s;
+}
+
+.restartBtn:hover
+{
+    background-color: orange;
+    color: white;
+}
+
+.directionBtn
+{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    transition-duration: 0.4s;
+}
+
+.directionBtn:hover
+{
+    background-color:black;
+    color: white;
+}

@@ -1,0 +1,37 @@
+Firstly, I know I am submitting this late, and I apologize for that. I 
+have been dealing with some family events that have made it difficult to 
+sit down and work on school.
+
+For this assignment we were tasked with completing two main tasks. The 
+first task was comprised of creating a 'Snake' like game using HTML, 
+CSS, and JS. While this task definitely took the most amount of my time 
+when completing this assignment, I actually enjoyed it. I began by 
+looking at tutorials for similar problems to get an understanding of how 
+HTML 5's canvas is used, and how to print my snake in the way that it 
+looks similar to the original 'Snake' game. From there, I began worked 
+without any form of tutorial and enjoyed coming up with intuitive 
+solutions to handling the constraints for the game. Additionally, I 
+learned about using CSS externally as that is something that I had not 
+done yet, and learned about CSS / JS classes. There is nothing special 
+needed to run this program / game, simply open up my 'snake.html' file 
+in whatever browser you choose and go from there. The only functionality 
+that I added that was not required was the 'Start / Stop' button 
+changing to a functioning 'Restart' button once the game was over, as 
+well as changing the 'Start' button to 'Resume' when paused.
+
+The second task consisted of making a CLI program in Node.js in which 
+the user would be prompted to enter four integers, and then the results 
+of specific operations on these integers would be printed to the 
+console. These operations consisted of:
+
+	- Calculating the first integer's factorial.
+	- Calculating the sum of the second integer's digits.
+	- Calculating the reversed number of the third integer.
+	- Calculating whether or not the fourth integer is a Palindrome.
+
+Additionally, there is nothing complicated about running this NodeJS 
+program. Simply open this directory in your terminal, and enter 'node 
+hw3.js'.
+
+Personally, I felt like the second task was far simpler than the first 
+one, but I am not complaining.
