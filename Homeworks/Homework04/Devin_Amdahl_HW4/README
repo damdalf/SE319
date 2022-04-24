@@ -1,0 +1,19 @@
+To compile my solution for this assignment, you will need to import the 
+Java project titled 'hw04' that I have included in this 'src' folder. 
+
+Once imported, you will need to change the paths for the 'chromedriver' 
+as well as that of the 'validation.htm'l file within the 
+'validationTests.java file (which is the only Java file within the 
+'hw04' project). The lines for these changes are: 20 & 22.
+
+I have included both of these files within my Java project under the 
+folder 'task1', which should make dragging these two files into a folder 
+of your choice easy to do. Simply change the paths to correspond to the 
+paths of the folder in which you have now placed these files. Once that 
+is done, everything should work fine. Please follow a format similar to 
+that done already in the 'validationTests.java' file. Ensure that the 
+chrome driver path ends in 'chromedriver', and that the validation page
+path ends in 'validation.html'. 
+
+After that, simply run the program and both JUnit tests should pass.
+
