@@ -1,0 +1,2 @@
+const accounts = [{email: "Devin@gmail.com", password: "Devin123!"}, {email: "Ritz@gmail", password: "Ritz123!"}, {email: "Patrick@gmail.com", password: "Patrick123!"}, {email: "Alex@gmail.com", password: "Alex123!"}];
+export { accounts };
